@@ -1,0 +1,9 @@
+streamlit
+openai-whisper
+moviepy==1.0.3
+google-generativeai
+<<<<<<< HEAD
+numpy<2
+=======
+numpy<2
+>>>>>>> bb6d7a3b07996cb75a04924dfd8271a9e3c90399
