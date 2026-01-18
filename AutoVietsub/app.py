@@ -10,7 +10,7 @@ import time
 
 # --- CẤU HÌNH API GEMINI (QUAN TRỌNG) ---
 # Dán API Key của bạn vào giữa dấu ngoặc kép bên dưới
-API_KEY = "AIzaSyBkYwIjegYH7a-kFaRu9yiY0_5rm80MmY8" 
+API_KEY = "......." 
 
 genai.configure(api_key=API_KEY)
 # Sử dụng model Gemini Flash cho nhanh và miễn phí
