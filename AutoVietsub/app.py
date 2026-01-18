@@ -8,9 +8,12 @@ import zipfile
 import shutil
 import time
 
-# --- CẤU HÌNH API GEMINI (QUAN TRỌNG) ---
-# Dán API Key của bạn vào giữa dấu ngoặc kép bên dưới
-API_KEY = "......." 
+
+try:
+    API_KEY = st.secrets["GEMINI_API_KEY"]
+except:
+    st.error("Chưa cấu hình API Key trên Cloud!")
+    st.stop()
 
 genai.configure(api_key=API_KEY)
 # Sử dụng model Gemini Flash cho nhanh và miễn phí
