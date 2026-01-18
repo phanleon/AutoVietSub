@@ -2,3 +2,4 @@ streamlit
 openai-whisper
 moviepy
 google-generativeai
+numpy<2
